@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            var x;
+            var text="";
+            var person = {fname:"ajay" , lastname:"gani"};
+            for (x in person){
+            text = person.lastname + "";   //  or text += person[x] + ""; \\ gives full data
+            }
+            document.getElementById("demo").innerHTML= text;
+        </script>
+    </body>
+</html>

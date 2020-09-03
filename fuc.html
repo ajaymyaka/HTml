@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>functions</title>
+
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            var car = {
+                firstName : "ajay",
+                lastName : "gani",
+                age : "24"
+             };
+             document.getElementById("demo").innerHTML= "the value is " +car.age  ;
+
+             // Create an object:
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id     : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+// Display data from the object:
+document.getElementById("demo1").innerHTML = person.fullName();
+             </script>
+    </body>
+</html>

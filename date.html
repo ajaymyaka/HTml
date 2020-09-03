@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>date( method)</title>
+
+    </head>
+<body>
+    <p id ="test"></p>
+    <p id="test1"></p>
+    <p id="test2"></p>
+    <p id="test3"></p>
+    <script>
+        var d = new Date();
+        document.getElementById("test").innerHTML = Date();
+
+        var a = new Date("2020,8,25");
+        document.getElementById("test1").innerHTML = a;
+
+        var b = new Date ();
+        b.setFullYear(2020, 11, 3);
+        document.getElementById("test2").innerHTML = b; 
+
+         var c = new Date();
+         document.getElementById("test3").innerHTML = c.getMonth(11) +1;
+
+    
+    </script>
+</body>
+</html>
